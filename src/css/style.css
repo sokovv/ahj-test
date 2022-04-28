@@ -1,0 +1,156 @@
+body {
+    color: #333;
+}
+
+.container {
+/*генерирует flex-контейнер уровня блока*/
+    display: -webkit-flex; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.head {
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: 10px;
+    position: static;
+    z-index: auto;
+
+}
+
+
+
+.widget {
+    margin-top: 50px;
+    box-sizing: border-box;
+    display: block;
+    float: none;
+    line-height: 10px;
+    position: static;
+    z-index: auto;
+
+}
+
+.card-list {
+    margin-top: -20px;
+    padding-left: 0;
+    list-style: none;
+    display: -webkit-flex; 
+    display: flex; 
+    box-sizing: border-box;
+    z-index: auto;
+}
+
+.card { 
+    float: left;
+    width: 64px;
+    height: 64px;
+    text-indent: -9999px; 
+    background-position: 0 0;
+    margin-right: 4px;
+}
+
+.cdisabled {
+    opacity: .3;
+  }
+
+.visa{
+    background-size: contain;
+    background-image: url(../img/visa.png);
+}
+
+.mir{
+    background-size: contain;
+    background-image: url(../img/mir.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.master{
+    background-size: contain;
+    background-image: url(../img/mastercard.png);
+}
+
+.amex{
+    background-size: contain;
+    background-image: url(../img/american_express.png);
+}
+
+.discover{
+    background-size: contain;
+    background-image: url(../img/discover.png);
+}
+
+
+.diners_club{
+    background-size: contain;
+    background-image: url(../img/diners_club.png);
+}
+
+.jcb{
+    background-size: contain;
+    background-image: url(../img/jcb.png);  
+}
+
+
+.form-group {
+    display: -webkit-flex; 
+    display: flex; 
+    box-sizing: border-box;
+}
+
+#card-input::placeholder {
+    color: #999;
+    opacity: 0.5;
+}
+
+#card-input {
+    display: block;
+    height: 34px;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card-submit {
+    color: #fff;
+    width: 120px;
+    height: auto;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.chek {
+    width: 64px;
+    height: 64px;
+    background-position: 0 0;
+    margin-left: 10px;
+}
+
+.invalid {
+    background-size: contain;
+    background-image: url(../img/gnome_process_stop.png);  
+  }
+  
+  .valid  {
+    background-size: contain;
+    background-image: url(../img/button_ok.png);  
+  }
+  
+  
+
+    
